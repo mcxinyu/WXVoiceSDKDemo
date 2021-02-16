@@ -1,0 +1,316 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000">
+
+        <ImageView
+            android:id="@+id/imagevoice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/voicereco"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/recognizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imagevoice1"
+            android:background="#00000000"
+            android:gravity="left|center_vertical"
+            android:text="@string/recognizer"
+            android:textColor="#DEDFE0"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imagevoiceend1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagevoice1"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/right_arrow"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000">
+
+        <ImageView
+            android:id="@+id/imagevoice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/voicereco"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/recognizer_cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imagevoice2"
+            android:background="#00000000"
+            android:gravity="left|center_vertical"
+            android:text="@string/recognizer_cont"
+            android:textColor="#DEDFE0"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imagevoiceend2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagevoice2"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/right_arrow"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000">
+
+        <ImageView
+            android:id="@+id/imagevoice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/voicereco"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/recognizer_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imagevoice3"
+            android:background="#00000000"
+            android:gravity="left|center_vertical"
+            android:text="@string/recognizer_data"
+            android:textColor="#DEDFE0"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imagevoiceend3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagevoice3"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/right_arrow"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000">
+
+        <ImageView
+            android:id="@+id/imagevoice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/voicereco"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/recognizer_data_cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imagevoice4"
+            android:background="#00000000"
+            android:gravity="left|center_vertical"
+            android:text="@string/recognizer_data_cont"
+            android:textColor="#DEDFE0"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imagevoiceend4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagevoice4"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/right_arrow"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000">
+
+        <ImageView
+            android:id="@+id/imagevoice5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/voicesyn"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/recognizer_postbyself"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imagevoice5"
+            android:background="#00000000"
+            android:gravity="left"
+            android:text="@string/recognizer_postbyself"
+            android:textColor="#DEDFE0"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imagevoiceend5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagevoice5"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/right_arrow"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000">
+
+        <ImageView
+            android:id="@+id/imagevoice6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/voicesyn"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/recognizer_postbyself_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imagevoice6"
+            android:background="#00000000"
+            android:gravity="left"
+            android:text="@string/recognizer_postbyself_data"
+            android:textColor="#DEDFE0"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imagevoiceend6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagevoice6"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/right_arrow"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000">
+
+        <ImageView
+            android:id="@+id/imagevoice7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/voicesyn"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/recognizer_browser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imagevoice7"
+            android:background="#00000000"
+            android:gravity="left"
+            android:text="@string/recognizer_browser"
+            android:textColor="#DEDFE0"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imagevoiceend7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagevoice7"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/right_arrow"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000">
+
+        <ImageView
+            android:id="@+id/imagevoice8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/voicesyn"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/tts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imagevoice8"
+            android:background="#00000000"
+            android:gravity="left"
+            android:text="@string/tts"
+            android:textColor="#DEDFE0"
+            android:textSize="25sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imagevoiceend8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imagevoice8"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/right_arrow"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#FFFFFF"></View>
+
+</LinearLayout>
